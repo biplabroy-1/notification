@@ -2,7 +2,7 @@
   "expo": {
     "name": "notification",
     "slug": "notification",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,6 +18,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.biplabroy.notification",
+      "notification": {
+        "sound": "./assets/notification.mp3"
       }
     },
     "web": {
